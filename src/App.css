@@ -1,0 +1,126 @@
+.cover-section {
+	background: #f5f7fb;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	max-width: 550px;
+	padding: 0 117px;
+}
+
+.cover-section > h1 {
+	font-size: 2rem;
+	font-weight: 700;
+	margin-bottom: 19px;
+}
+
+.cover-section > p {
+	font-family: 'Inter', sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	margin-bottom: 29px;
+}
+
+.cover-section > button {
+	font-family: 'Inter', sans-serif;
+	font-size: 1rem;
+	font-weight: 500;
+	background: #4d5b9e;
+	border-radius: 15px;
+	border: none;
+	padding: 1rem 2rem;
+	color: white;
+	cursor: pointer;
+}
+
+/* font-family: 'Karla', sans-serif; */
+.quiz-wrapper {
+	background: #f5f7fb;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* width: 75vw; */
+	max-width: 556px;
+	padding: 44px 76px;
+}
+
+.questions-container {
+	/* background-color: red; */
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+/* .question-wrapper > hr {
+	color: #d6dbf5;
+	margin-bottom: 1rem;
+	width: 100%;
+} */
+
+.question-wrapper {
+	border-bottom: 0.794239px solid #DBDEF0; 
+	width: 100%;
+	margin-bottom: 17px;
+}
+
+.question {
+	font-family: 'Karla', sans-serif;
+	font-weight: 700;
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+
+.answers {
+	display: flex;
+	flex-direction: row;
+	/* justify-content: space-evenly; */
+	margin-bottom: 14px;
+}
+
+.answer-choice {
+	/* border: 0.794239px solid #4D5B9E; */
+	border-radius: 8px;
+	/* Set this using conditional rendering later */
+	/* So make each answer an object */
+	background-color: transparent;
+	padding: 4px 15px;
+	cursor: pointer;
+	margin-right: 12px;
+}
+
+/* .answer-choice:hover {
+	background-color: #d6dbf5;
+} */
+
+/* Temporary css styling do inline with conditional  */
+/* .selected {
+	background-color: #d6dbf5;
+	border: none;
+} */
+
+.check-answers {
+	font-family: 'Inter', sans-serif;
+	font-size: 10px;
+	font-weight: 500;
+	background: #4d5b9e;
+	border-radius: 10px;
+	border: none;
+	padding: 11px 21px;
+	color: white;
+	cursor: pointer;
+}
+
+.score-card {
+	display: flex;
+	align-items: center;
+}
+
+.score-card > p {
+	font-family: 'Inter', sans-serif;
+	font-weight: bold;
+	font-size: 12.8px;
+	line-height: 15px;
+	color: #293264;
+	margin-right: 44px;
+}
